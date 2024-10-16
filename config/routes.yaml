@@ -1,0 +1,9 @@
+homepage: 
+    path: / 
+    controller: App\Controller\IndexController::home
+
+controllers:
+    resource: '../src/Controller/'
+    type: annotation
+
+
